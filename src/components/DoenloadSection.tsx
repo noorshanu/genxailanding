@@ -35,13 +35,13 @@ const DownloadSection: React.FC = () => {
               alt=""
               className=" mx-auto rounded-xl h-[100px]"
             />
-            <h2 className=" text-center text-xl font-manbold font-bold text-prime pb-2">
+            <h2 className=" text-center text-xl font-manbold font-bold text-white pb-2">
               AI NFT Creation
             </h2>
 
-            <p className=" text-start pb-1 font-light">
+            <p className=" text-start pb-1 font-light text-white text-base">
               Design and launch your own NFT collections with ease. Simply
-              provide insights to our AI, and we’ll help you create and launch
+              provide insights to our AI, and we'll help you create and launch
               your NFTs on any blockchain using our integrated launchpad.
             </p>
           </div>
@@ -52,12 +52,12 @@ const DownloadSection: React.FC = () => {
               alt=""
               className=" mx-auto rounded-xl h-[100px]"
             />
-            <h2 className=" text-center text-xl font-manbold font-bold text-prime pb-2">
+            <h2 className=" text-center text-xl font-manbold font-bold text-white pb-2">
               Build on Multi-Chain
             </h2>
 
-            <p className=" text-start pb-1 font-light">
-              Tap into a $500 billion market with GenX AI’s multi-chain
+            <p className=" text-start pb-1 font-light text-white text-base">
+              Tap into a $500 billion market with GenX AI's multi-chain
               technology. Our platform expands your reach to millions of users
               across multiple blockchain networks.
             </p>
@@ -70,11 +70,11 @@ const DownloadSection: React.FC = () => {
                 alt=""
                 className=" mx-auto rounded-xl h-[100px]"
               />
-              <h2 className=" text-center text-xl font-manbold font-bold text-prime pb-2">
+              <h2 className=" text-center text-xl font-manbold font-bold text-white pb-2">
                 Easy To Use
               </h2>
 
-              <p className=" text-start pb-1 font-light">
+              <p className=" text-start pb-1 font-light text-white text-base">
                 Generate, create, and launch NFT and token projects
                 effortlessly. With AI modules powered by GenX AI, simply input
                 prompts just like ChatGPT and watch your ideas come to life.
