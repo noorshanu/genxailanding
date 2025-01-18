@@ -3,7 +3,7 @@ import { FaDiscord, FaTelegram, FaTiktok, FaFacebook, FaTwitter, FaReddit, FaIns
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-10 px-6">
+    <footer className="bg-[#0C1626] text-white py-10 px-6 border-t border-[#6565655a]">
       <div className="max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-6 gap-6">
         <div className="col-span-1 md:col-span-2">
           <h4 className="font-bold mb-4">Community</h4>

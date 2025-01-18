@@ -9,46 +9,32 @@ const FAQSection: React.FC = () => {
   // Dummy FAQ data
   const faqs = [
     {
-      question: "What is Seed AI?",
+      question: "What is GenX AI?",
       answer:
-        "Seed AI is a comprehensive platform that integrates a decentralized app store, AI agent launchpad, and developer tools, enabling users and developers to discover, deploy, and manage AI agents seamlessly within the Web3 ecosystem.",
+        "GenX AI is the future of AI-driven projects, transforming your ideas into reality with cutting-edge technology and seamless execution.",
     },
     {
-      question: "How does Seed AI's marketplace ensure the quality of AI agents?",
+      question: "Why GenX AI?",
       answer:
-        "Seed AI implements a strict vetting process and quality assurance protocols to ensure that all AI agents meet industry standards.",
+        "We offer a wide range of tools and options to bring your vision to life without the need for a team or unnecessary complexities. GenX AI makes project creation simple and hassle-free.",
     },
     {
-      question: "What is the Initial Agent Offering (IAO) Pad?",
+      question: "How is GenX AI the Future?",
       answer:
-        "The IAO Pad is a launchpad for AI agents, enabling developers to launch and market their AI solutions effectively.",
+        "GenX AI is bridging the gap between AI and human potential, providing innovative solutions that will revolutionize industries and empower creators, businesses, and individuals worldwide.GenX AI is bridging the gap between AI and human potential, providing innovative solutions that will revolutionize industries and empower creators, businesses, and individuals worldwide.",
     },
     {
       question:
-        "How can developers benefit from Seed AI’s Developer SDK?",
+        "Why Invest in GenX AI?",
       answer:
-        "Seed AI's Developer SDK provides tools and APIs that simplify the development and deployment of AI agents.",
+        "As a holder or staker, you’ll unlock exponential benefits, gaining access to exclusive features and rewards that set you ahead in the rapidly evolving Web 3.0 landscape.",
     },
     {
-      question: "What is the Agent SeedVerse?",
+      question: "Where to Buy?",
       answer:
-        "The Agent SeedVerse is a curated library where AI agents can interact and collaborate for enhanced functionality.",
+        "Stay tuned our platform will be live soon, offering easy access to purchase and engage with GenX AI.",
     },
-    {
-      question: "How does Seed AI ensure security and transparency?",
-      answer:
-        "Seed AI employs blockchain technology and advanced encryption techniques to maintain the highest levels of security and transparency.",
-    },
-    {
-      question: "Who can use Seed AI’s platform?",
-      answer:
-        "Anyone interested in exploring, developing, or deploying AI solutions within the Web3 ecosystem can use Seed AI’s platform.",
-    },
-    {
-      question: "How can I get involved with Seed AI?",
-      answer:
-        "You can get involved by joining the Seed AI community, exploring the platform, and collaborating on AI projects.",
-    },
+    
   ];
 
   const toggleFAQ = (index: number) => {
@@ -69,7 +55,7 @@ const FAQSection: React.FC = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-purple-500/10 to-black/30 rounded-lg p-6 border border-purple-600 shadow-lg"
+              className="bg-gradient-to-br from-purple-500/10 to-black/30 rounded-lg p-6 border border-[#656565] shadow-lg"
             >
               {/* Question */}
               <div

@@ -1,6 +1,8 @@
 // src/components/Navbar.tsx
 "use client"
 import React, { useState } from "react";
+import { FaMoon } from "react-icons/fa";
+import { HiBell } from "react-icons/hi";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,9 +48,14 @@ const Navbar: React.FC = () => {
           </nav>
         </div>
 
-        <button className="bg-accent py-2 px-4 rounded-lg shadow-md hover:bg-purple-700">
+      <div className="flex gap-2 items-center" >
+      <button className="bg-[#AEB3F6] py-2 px-4 rounded-lg shadow-md hover:bg-purple-700">
           Connect
-        </button>
+        </button> 
+        <HiBell className="text-2xl text-[#AEB3F6]"/>
+        <FaMoon className="text-lg text-[#AEB3F6]"/>
+
+      </div>
       </div>
     </header>
   );
