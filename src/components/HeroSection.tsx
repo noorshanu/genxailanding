@@ -3,22 +3,23 @@ import React from "react";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-dark text-white py-16 px-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-        <div className="text-center md:text-left space-y-4">
-          <h2 className="text-4xl md:text-6xl font-bold">
+    <section className=" text-white py-16  relative">
+      <img src="images/blur.png" alt="" className="absolute top-0 left-0 w-full h-full object-cover hidden sm:block" />
+      <div className=" mx-auto flex flex-col md:flex-row items-center justify-between relative z-50">
+        <div className="text-center md:text-left space-y-4 w-full sm:w-1/2 sm:ml-16">
+          <h2 className="text-4xl md:text-7xl font-bold lh-1_3 font-sf">
             Create, Generate <br /> Trade AI Agents, <br />
-            Any Agents with <span className="text-accent">GenX AI</span>
+            Any Agents with <br /> <span className="text-accent font-extrabold">GenX AI</span>
           </h2>
-          <p className="text-gray-300">
-            Below will be demo AI agents, available for your use.
-          </p>
+        
         </div>
-        <img
-          src="/images/hero-image.png"
+        <div className="w-full sm:w-1/2">
+    <img
+          src="images/hero.png"
           alt="Hero AI"
-          className="w-full md:w-1/2 max-w-lg mt-8 md:mt-0"
+          className="w-full border border-[#263248] rounded-lg shadow-lg "
         />
+    </div>
       </div>
     </section>
   );

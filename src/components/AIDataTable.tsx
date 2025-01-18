@@ -9,32 +9,16 @@ const AIDataTable: React.FC = () => {
   ];
 
   return (
-    <section className="bg-dark text-white py-12 px-6">
+    <section className=" text-white py-12 px-6">
       <div className="container mx-auto">
-        <h3 className="text-2xl font-bold mb-6">Below Will Be Demo AI Agents</h3>
-        <table className="w-full text-left border-collapse border border-gray-700">
-          <thead>
-            <tr className="bg-gray-800 text-gray-300">
-              <th className="p-4 border border-gray-700">Name</th>
-              <th className="p-4 border border-gray-700">Price</th>
-              <th className="p-4 border border-gray-700">24h Change</th>
-              <th className="p-4 border border-gray-700">Market Cap</th>
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((item, index) => (
-              <tr
-                key={index}
-                className="hover:bg-gray-800 transition-colors duration-200"
-              >
-                <td className="p-4 border border-gray-700">{item.name}</td>
-                <td className="p-4 border border-gray-700">{item.price}</td>
-                <td className="p-4 border border-gray-700">{item.change}</td>
-                <td className="p-4 border border-gray-700">{item.marketCap}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <h3 className=" text-3xl sm:text-7xl fmb-6 text-center font-extrabold font-sf lh-1_3 py-4">Below Will Be Demo AI Agents</h3>
+
+        <div className=" mx-auto">
+
+          <img src="images/table.png" alt="" className="w-full mx-auto" />
+
+        </div>
+      
       </div>
     </section>
   );
